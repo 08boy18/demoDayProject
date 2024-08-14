@@ -1,0 +1,44 @@
+{
+    "found": true,
+    "datetime": "2021-11-08T21:00:00.000Z",
+    "index": {
+        "index_type": "meersens",
+        "index_name": "Meersens",
+        "qualification": "Neutral",
+        "icon": null,
+        "color": "#05b3a4",
+        "value": 5,
+        "main_pollutants": [
+            "pH"
+        ]
+    },
+    "pollutants": {
+        "pH": {
+            "shortcode": "pH",
+            "name": "pH",
+            "unit": "",
+            "found": true,
+            "value": 7.4,
+            "confidence": 4.5,
+            "index": {
+                "index_type": "meersens",
+                "index_name": "Meersens",
+                "qualification": "Neutral",
+                "icon": null,
+                "color": "#05b3a4",
+                "description": "Water pH varies most often between 6.5 and 8.5, water can therefore be weakly acidic or basic that does not pose a problem for health.",
+                "value": 5
+            }
+        },
+        ...
+    },
+    "health_recommendations": {
+        "all": "Degraded water quality can cause irritation of the respiratory tract and cause respiratory discomfort.",
+        "family": "Children with an immature respiratory system are more impacted by poor water quality. Outdoor activities can be maintained as long as there is no respiratory or cardiac discomfort.",
+        "sport": "Physical activities cause an increase in respiratory rate which leads to increased exposure to pollutants and potentially to symptoms resulting from them.",
+        "pregnancy": "Exposure to pollutants can affect the fetus and pregnancy (lower birth weight, preterm delivery ...)",
+        "respiratory": "Air pollution can worsen respiratory pathologies such as asthma, COPD, chronic bronchitis ...",
+        "elderly": "With age, the respiratory system can become weakened and pollution can exacerbate respiratory problems",
+        "cardiovascular": "Air pollution has been implicated in the development or aggravation of cardiovascular disease"
+    }
+}

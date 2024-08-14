@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+North+Arabian&family=Noto+Serif+Telugu:wght@100..900&display=swap" rel="stylesheet">
+    <title>Plant</title>
+
+    <script src="/home/jsonFiles/basicInfo.js" defer></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2 id="subtitle" class="topText">Welcome to</h2>
+    <h1 id="title" class="topText">Name here</h1>
+
+    <div id="inputContainer">
+        <input type="text" id="searchInput" placeholder="Search Plants...">
+    </div>
+
+    <div id="mainContent">
+        <div id="leftNav">
+            <div id="plantNav">
+                <p>Fall</p>
+                <p>Winter</p>
+                <p>Spring</p>
+                <p>Summer</p>
+            </div>
+            <div id="waterQualityNav">
+                <a href="/waterQuality/index.html"><p>Water Quality</p></a>
+            </div>
+            
+        </div>
+        <div id="content">
+            <div id="plant1" class="plantBox">
+                <img id="plantImg1">
+                <p id="plantText1">Plant Name Here</p>
+                <button class="moreInfo">More info</button>
+            </div>
+            <div id="plant2" class="plantBox">
+                <img id="plantImg2">
+                <p id="plantText2">Plant Name Here</p>
+                <button class="moreInfo">More info</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

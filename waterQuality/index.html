@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="fetchData.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Old+North+Arabian&family=Noto+Serif+Telugu:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="app">
+        <div id="top-section">
+            <h1 class="top-section-title">Water Quality </h1>
+            <h1 class="top-section-subtitle">Location</h1>
+            <div id="top-section-input">
+                <input type="text" class="cord-input" id="longInput" placeholder="Long">
+                <div id="space"></div>
+                <input type="text" class="cord-input" id="latInput" placeholder="Lat">
+            </div>
+            <button id="submit-button">Submit</button>
+            
+        </div>
+
+        <div id="main-content">
+            <div id="content-section">
+                <div id="ph-area">
+                    <p id="ph-area-title">Ph </p>
+                    <div id="ph"></div>
+                    <p id="ph-area-state">State: </p>
+                </div>
+                <div>
+                    <p id="guidelines">Guidlines: This is where recommendations and other featurs will go </p>
+                </div>
+            </div>  
+        </div>
+        
+        <div id="footer-section">
+            <a href="/home/index.html"><p>Home</p></a>
+            <p>More States</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

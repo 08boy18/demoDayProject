@@ -1,0 +1,128 @@
+body, html{
+    margin: 0;
+    padding: 0;
+
+    background-color: #F9FAF9;
+
+    font-family: "Noto Serif Telugu", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* ID */
+#subtitle {
+    font-family: "Noto Sans Old North Arabian", system-ui;
+    font-weight: 400;
+    font-style: normal;
+
+    font-size: 4vw;
+
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#title{
+    font-family: "Noto Sans Old North Arabian", system-ui;
+    font-weight: bold;
+    font-style: normal;
+
+    font-size: 10vw;
+
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#inputContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+#searchInput{
+    width: 80vw;
+    height: 3vh;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: #dde9de;
+    border: 0px;
+}
+
+#mainContent {
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#leftNav {
+    width: 20%;
+    height: 90%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#plantNav {
+    border-top-right-radius: 20px; 
+    border-bottom-right-radius: 20px;
+
+    background-color: #DDE9DE;
+
+    height: 50%;
+    padding-left: 2vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+#waterQualityNav{
+    border-top-right-radius: 50px; 
+    border-bottom-right-radius: 50px;
+    background-color: #EDEFED;
+
+    padding-left: 2vw;
+}
+
+#content{
+    
+
+    width: 70%;
+    height: 90%;
+
+    margin-right: 4vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Class */
+.topText{
+    margin-left: 1vw;
+}
+
+.plantBox{
+    background-color: #DDE9DE;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw;
+}
+
+.moreInfo{
+    color: #F9FAF9;
+    background-color: #7FBD91;
+    border: none;   
+    border-radius: 10px;
+
+    width: 30vw;
+    height: 10vw;
+    
+}
