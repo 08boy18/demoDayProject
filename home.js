@@ -34,7 +34,7 @@ inputField.addEventListener("keydown", function(event) {
         if (inputValue !== "") {
             localStorage.setItem('searchInput', inputValue);
             inputField.value = ""; 
-            window.location.href = "/moreInfo/moreInfo.HTML"
+            window.location.href = "moreInfo/moreInfo.HTML"
         }
     }
 });
