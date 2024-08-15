@@ -1,0 +1,134 @@
+body{ 
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    height: 100vh;
+
+    margin: 0;
+
+    font-family: "Noto Serif Telugu", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #F9FAF9;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+h1 {
+    font-family: "Noto Sans Old North Arabian", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 40px;
+
+}
+
+h2 {
+    font-family: "Noto Sans Old North Arabian", system-ui;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 5vh;
+}
+
+img{
+    border-radius: 20px;
+}
+
+a {
+    color: inherit; 
+    text-decoration: none; 
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #EDEFED;
+    width: 100vw;
+}
+
+
+/* ID */
+#app{
+    margin-inline: 5vw;
+}
+
+#content {
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#title {
+    margin-bottom: 0;
+}
+
+#description{
+    line-height: 2;
+    text-align: justify;
+}
+
+#leftSide {
+    width: 25vw;
+
+}
+
+#rightSide{
+    background-color: #DDE9DE;
+    border-radius: 20px;
+
+    width: 45vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-inline: 1vw;
+    
+}
+
+#subInfo {
+    margin-top: 10vh;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+/* CLASS */
+.subInfoBox{
+    width: 8vw;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+
+.subInfoBoxIcon{
+    display: flex;
+    align-items: center;
+}
+
+
+.icon{
+    height: 2vw;
+}
+
+.infoSub {
+    color: rgb(85, 85, 85);
+}
+
+.infoDom {
+    font-weight: bold;
+}

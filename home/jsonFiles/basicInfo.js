@@ -709,21 +709,6 @@ let data = [
       },
       {
         "id": 29,
-        "common_name": "Alpenweiss Variegated Dwarf Japanese Maple*",
-        "scientific_name": [
-          "Acer palmatum 'Alpenweiss'"
-        ],
-        "other_name": [],
-        "cycle": "Perennial",
-        "watering": "Average",
-        "sunlight": [
-          "full sun",
-          "part shade"
-        ],
-        "default_image": null
-      },
-      {
-        "id": 30,
         "common_name": "Ao Shime No Uchi Japanese Maple",
         "scientific_name": [
           "Acer palmatum 'Ao Shime No Uchi'"
